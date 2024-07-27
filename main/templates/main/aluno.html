@@ -15,7 +15,7 @@
             <tbody>
                 {% for aluno in aluno_lista %}
                     <tr>
-                        <td>{{ aluno.nome }}</td>
+                        <td><a href="/alunoID/{{aluno.id}}">{{ aluno.nome }}</td>
                         <td>{{ aluno.email }}</td>
                         <td>{{ aluno.telefone }}</td>
                     </tr>
